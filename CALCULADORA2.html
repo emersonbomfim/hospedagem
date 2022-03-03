@@ -1,0 +1,64 @@
+<HTML>
+<META CHARSET = "UTF-8">
+<HEAD>
+<TITLE> Calculadora </TITLE>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="calculadora style.css"/>
+<SCRIPT>
+
+function insert(num)
+{
+var number = document.getElementById('RESULTADO').innerHTML;
+document.getElementById('RESULTADO').innerHTML = number + num;
+}
+
+
+
+</SCRIPT>
+</HEAD>
+
+
+
+<BODY>
+<DIV CLASS="FUNDO">
+<H1>QUANTO É?</H1>
+<DIV CLASS="CALC">
+<H2>CALCULADORA</H2>
+<P ID="RESULTADO"></P>
+
+
+
+<TABLE>
+<TR>
+<TD COLSPAN="2"><INPUT TYPE="button" value="C" CLASS="BUTTON" STYLE="WIDTH:108PX" onClick="reseta()"></TD>
+<TD><INPUT TYPE="button" value="⌫" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="÷" CLASS="BUTTON" onClick="botao(value)"></TD>
+</TR>
+<TR>
+<TD><INPUT TYPE="button" value="7" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="8" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="9" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="x" CLASS="BUTTON" onClick="botao(value)"></TD>
+</TR>
+<TR>
+<TD><INPUT TYPE="button" value="4" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="5" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="6" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="-" CLASS="BUTTON" onClick="botao(value)"></TD>
+</TR>
+<TR>
+<TD><INPUT TYPE="button" value="1" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="2" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="3" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="+" CLASS="BUTTON" onClick="botao(value)"></TD>
+</TR>
+<TR>
+<TD><INPUT TYPE="button" value="0" CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD><INPUT TYPE="button" value="." CLASS="BUTTON" onClick="botao(value)"></TD>
+<TD COLSPAN="2"><INPUT TYPE="button" value="=" CLASS="BUTTON" STYLE="WIDTH:108PX" onClick="calcular()"></TD>
+</TR>
+</TABLE>
+</DIV>
+</DIV>
+
+</BODY>
+</HTML>

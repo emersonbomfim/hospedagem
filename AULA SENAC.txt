@@ -1,0 +1,11 @@
+<HTML>
+  <HEAD>
+    <TITLE>Aula</TITLE>
+  </HEAD>
+<BODY><P>Inserindo a logo do 
+Senac na pagina <I> web</I></P>
+<IMG SRC="C:\Users\KEILA 
+FRANCIELLY\Pictures\SENAC.JPG">
+</BODY>
+
+</HTML>
